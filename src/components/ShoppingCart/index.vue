@@ -8,7 +8,7 @@
             <div class="shopping-all">
                 <ShoppCard :data="$store.state.shop.shopData" />
             </div>
-            <p v-if="$store.state.shop.shopData.length <= 0" class="notData" style="font-size:16px; text-align:center;"><Icon style="font-size:20px;" type="ios-cube-outline" />空空如也</p>
+            <!-- <p v-if="$store.state.shop.shopData.length <= 0" class="notData" style="font-size:16px; text-align:center;"><Icon style="font-size:20px;" type="ios-cube-outline" />空空如也</p> -->
             <p style="width:80%; position:absolute; bottom:10px; border-top: 1px solid #E8EAEC; padding:5px;">总金额：{{sum}}元</p>
         </Drawer>
   </div>
